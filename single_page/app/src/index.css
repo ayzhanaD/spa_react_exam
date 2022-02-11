@@ -1,0 +1,99 @@
+body{
+    background: #f8dccc;
+    padding: 20px;
+    margin: auto;
+    font-family: pridi;
+}
+h1{
+    color: #240c0c;
+    font-size: 40px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    filter: invert(1);   
+    background-color: #8ab4bb; 
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.header{
+    font-family: pridi;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.header > li{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background: #5c3c34;
+}
+.header > li :hover{
+    font-size: 22px;
+}
+.header > li :active{
+    font-size: 18px;
+}
+
+
+.content{
+    background-color: #5c3c34;
+    padding: 20px;
+    margin: 10px;
+    color: #ffede2;
+    border-radius: 10px;
+}
+
+.tables-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.table-i{
+    min-width: 400px;
+    max-width: 400px;
+    height: 360px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+fieldset{
+    border-radius: 10px;
+}
+.sub_btn{
+    font-family: pridi;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: #5c3c34;
+    float: right;
+}
+.sub_btn:hover{
+    background-color: #f8dccc;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-radius: 5px;
+}
